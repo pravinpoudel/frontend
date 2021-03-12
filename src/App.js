@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import *  as Icon from "../node_modules/react-feather";
+import Form from "./components/Form";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1 class="display-1">Display 1</h1>
-       <button className="btn btn-success">Thank you for comming here</button>
+      <Icon.Camera color="red" size={32}/>
+      <h1 className="display-1">Display 1</h1>
+      <Form />
       </header>
     </div>
   );
